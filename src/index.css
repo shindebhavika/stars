@@ -99,5 +99,9 @@ body {
 }
 header{
   margin-left: 0;
+  margin-right: 0;
+}
+.card-extra{
+width: 260px;
 }
 }
