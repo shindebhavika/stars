@@ -45,7 +45,7 @@ function PlanetCard() {
     <div className="flex page-container gap-5 flex-wrap  md:flex-row md:col-3">
       {loading ? (
         <div className="min-h-screen flex items-center justify-center ml-[700px]">
-          <ThreeDots  color="green" />
+          <ThreeDots  color="  #002661" />
         </div>
         
       ) : (
