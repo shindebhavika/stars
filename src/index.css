@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+
+  
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /* utility classes */
+ .page-container{
+  width: 80%;
+  margin: 0 auto;
+ }
+ .buttons{
+background-color: black;
+border: none;
+color: whitesmoke;
+/* border-bottom: 2px solid black; */
+ }
+ .buttons:hover{
+  background: rgb(1,4,13);
+  background: linear-gradient(90deg, rgba(1,4,13,1) 30%, rgba(28,40,45,1) 53%, rgb(19, 20, 20) 100%, rgba(29,253,205,1) 100%);
+  color: whitesmoke;
+
+ }
+ .nav-links{
+ 
+  font-size:1.4rem;
+border-bottom: 2px solid black;
+ }
+ .nav-links:hover{
+  border-top: 2px solid black;
+  /* border-bottom: 2px solid rgba(129, 125, 125, 0); */
+ }
+.Header{
+
+  box-shadow: rgba(143, 3, 3, 0.1) 0px 10px 15px -3px, rgba(116, 2, 2, 0.05) 0px 4px 6px -2px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  /* border: 3px solid black; */
+}
+
+.Footer{
+  border: 3px solid black; 
+  position: absolute;
+
+  
+}
+
+.resident-card{
+  background: rgb(110,25,50);
+background: linear-gradient(90deg, rgba(110,25,50,1) 20%, rgba(195,15,92,1) 100%, rgba(28,40,45,1) 100%, rgba(127,140,134,1) 100%);
+color: antiquewhite;
+}
+
+body{
+  letter-spacing: 2px;
+  font-family: "Poppins";
+  /* background-color: black; */
+
+}
+.card-con{
+  background-color: red;
+  border: 3px solid rgb(43, 41, 41) ;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
