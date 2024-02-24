@@ -1,11 +1,11 @@
-import React from 'react';
+
 import { Link, useNavigate } from 'react-router-dom';
 
 function Header() {
   const navigate = useNavigate();
 
   return (
-    <div className="Header h-32  border border-gray-950 w-[100%]  ">
+    <div className="Header h-32  border  w-[100%]  ">
       <header className="flex flex-wrap justify-between items-center py-3 mb-4 mt-3">
         <div className="flex-shrink-0 w-28 rounded-full ml-6 header-left">
           <Link to="/" className="flex items-center ">
@@ -23,7 +23,7 @@ function Header() {
           >
             Home
           </button>
-          {/* Add more navigation buttons as needed */}
+         
         </div>
       </header>
     </div>

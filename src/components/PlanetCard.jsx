@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext} from "react";
 import Card from "./Card";
 import Pagination from "./Pagination";
 import PlanetContext from "../data/PlanetData";
@@ -7,7 +7,7 @@ import { ThreeDots } from "react-loader-spinner";
 function PlanetCard() {
   const {
     planets,
-    residents,
+   
     totalPages,
     currentPage,
     loading,
@@ -42,11 +42,13 @@ function PlanetCard() {
   };
 
   return (
-    <div className="flex page-container gap-5 flex-wrap  md:flex-row md:col-3">
+    <div className="flex page-container  flex-wrap gap-3  md:flex-row md:col-3">
       {loading ? (
-        <div className="min-h-screen flex items-center justify-center ml-[700px]">
-          <ThreeDots  color="  #002661" />
-        </div>
+    <div className="min-h-screen flex items-center justify-center ml-[50%]">
+    <ThreeDots color="#002661"  />
+  </div>
+  
+     
         
       ) : (
         <>
