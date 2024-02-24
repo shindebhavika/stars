@@ -1,13 +1,5 @@
 {
-  "routes":[
-    
-        {
-          "src": "/",
-          "dest":"/"
-        },
-        {
-          "src": "/resident-info",
-          "dest":"/"
-        }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

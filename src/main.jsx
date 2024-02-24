@@ -18,13 +18,8 @@ const router = createBrowserRouter([
         path: "/resident-info",
         element:<ResidentData/>,
       },
-      // {
-      //   path: "/Create-Quiz",
-      //   element: <CreateQuizPage/>,
-      // },{
-      //   path:"/my-quizes",
-      //   element:<MyQuizes/>
-      // }
+    
+    
     ],
   }]);
 ReactDOM.createRoot(document.getElementById('root')).render(
