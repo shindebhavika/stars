@@ -12,10 +12,10 @@ function Card({ title, description, imageUrl ,planetData}) {
   
 
   const handleClick = () => {
-    localStorage.setItem("planetData",JSON.stringify(planetData))
+    // localStorage.setItem("planetData",JSON.stringify(planetData))
     navigate('/resident-info' )
     setknowMorePlanet(planetData)
-    console.log("this is from card", knowMorePlanet.residents)
+    // console.log("this is from card", knowMorePlanet.residents)
    
   };
 
@@ -29,7 +29,7 @@ function Card({ title, description, imageUrl ,planetData}) {
     <div className="card-body flex flex-col gap-4 p-2">
       <h5 className="card-title text-xl font-semibold">{title}</h5>
       <div className="card-text">
-        {/* Split the description into paragraphs */}
+        
         {description.split('\n').map((line, index) => (
           <p key={index}>{line}</p>
         ))}

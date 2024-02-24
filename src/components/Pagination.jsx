@@ -2,8 +2,8 @@ import React from 'react';
 
 const Pagination = ({ currentPage, hasNextPage, handleNextPage, handlePrevPage }) => {
   return (
-    <nav aria-label="Page navigation example" className="w-full flex justify-center mt-5">
-      <ul className="pagination">
+    <nav aria-label="Page navigation example" className="w-full flex  justify-center mb-6 mt-5 ">
+      <ul className="pagination ">
         <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
           <a className="page-link" href="#" onClick={handlePrevPage}>
             Previous

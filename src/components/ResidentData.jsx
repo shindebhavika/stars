@@ -8,7 +8,7 @@ function ResidentData() {
 
 
 const residentUrl=knowMorePlanet.residents
-console.log(residentUrl)
+// console.log(residentUrl)
   return (
     <div>
       

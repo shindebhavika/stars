@@ -8,7 +8,7 @@ function App() {
 
   return (
     
-       <div className="main-wrapper min-h-full">
+       <div className="main-wrapper min-h-full ">
         <PlanetContextProvider>
     <Header/>
     <Outlet />
